@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 106px;
+}
+
+h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.font-size-1{
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.font-size-2{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.font-size-3{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.font-black{
+    font-weight: 900;
+}
+
+.white{
+    color: #fff;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* -----main----- */
+.main{
+    height: 958px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week2/banner.png);
+    background-position: center center;
+}
+
+.main p{
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+/* -----About----- */
+.profile{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.profile img{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.divider{
+    width: 384px;
+    border-bottom: 1px solid #000;
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+.red-dot{
+    background: #891818;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    margin-right: 16px;
+}
+
+.profile-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----My brand----- */
+.brand{
+    background: #000;
+    padding-top: 56px;
+    padding-bottom: 120px;
+}
+
+.brand-list li{
+    margin-bottom: 40px;
+}
+
+.brand h3{
+    margin-top: 12px;
+}
+
+.brand p{
+    margin-top: 32px;
+    margin-bottom: 68px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* -----Other Works----- */
+.works{
+    padding-top: 56px;
+    padding-bottom: 96px;
+}
+
+.works p{
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+
+.works-list li{
+    margin-bottom: 48px;
+}
+
+.works-list h3{
+    font-size: 20px;
+    line-height: 42px;
+}
+
+/* -----Contact----- */
+.contact{
+    background: #000;
+    padding: 64px 0;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact-list li{
+    margin-top: 16px;
+}
+
+a:hover{
+    opacity: 0.3;
+}

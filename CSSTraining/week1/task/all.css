@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container h2{
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+.container li{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.container .eg{
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.red{
+    color: #A00404;
+}
+
+.profile{
+    padding-top: 37px;
+    padding-bottom: 48px;
+}
+
+.profile h1{
+    font-size: 80px;
+    line-height: 1.33;
+    border-bottom: 2px solid #000000;
+}
+
+.profile img{
+    padding: 48px 0;
+}
+
+.profile h2, .work h2{
+    border-bottom: 1px solid #000000;
+    margin-bottom: 16px;
+}
+
+.profile p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.profile .space{
+    padding-bottom: 48px;
+}
+
+.skills, .contact{
+    background: #415165;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.skills .container{
+    width: 996px;
+}
+
+.skills h2, .contact h2, .contact a{
+    color: #ffffff;
+}
+
+.skills ul{
+    width: 230px;
+    margin: 0 auto;
+    text-align: left;
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-top: 37px;
+}
+
+.skills li, .contact li{
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.skills h2, .contact h2{
+    border-bottom: 1px solid #ffffff;
+}
+
+.work{
+    padding-top: 72px;
+    padding-bottom: 48px;
+}
+
+.work ul{
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-left: 24px;
+}
+
+.work li{
+    margin-bottom: 24px;
+}
+
+.work li img{
+    margin: 8px 0;
+}
+
+.work li p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contact ul{
+    margin-top: 32px;
+}
+
+.contact-media{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-media a{
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+}
+
+.contact a:hover{
+    opacity: 0.2;
+}
