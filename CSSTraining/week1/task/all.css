@@ -43,6 +43,12 @@ table {
 	border-spacing: 0;
 }
 
+/* -----CSS Reset End------ */
+
+body{
+    line-height: 1.5;
+}
+
 *, *:before, *:after{
     box-sizing: border-box;
 }
@@ -63,7 +69,6 @@ img{
 
 .container li{
     font-size: 24px;
-    line-height: 1.5;
 }
 
 .container .eg{
@@ -90,19 +95,25 @@ img{
     padding: 48px 0;
 }
 
-.profile h2, .work h2{
+.profile h2, .education h2, .work h2{
     border-bottom: 1px solid #000000;
     margin-bottom: 16px;
 }
 
-.profile p{
+.profile li, .education li{
     font-size: 24px;
-    line-height: 1.5;
+}
+
+.profile ul{
     margin-bottom: 24px;
 }
 
-.profile .space{
+.education{
     padding-bottom: 48px;
+}
+
+.education li{
+    margin-bottom: 24px;
 }
 
 .skills, .contact{
@@ -159,7 +170,6 @@ img{
 
 .work li p{
     font-size: 20px;
-    line-height: 1.5;
 }
 
 .contact ul{
