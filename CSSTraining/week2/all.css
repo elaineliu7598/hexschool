@@ -155,12 +155,14 @@ h2{
     margin-bottom: 28px;
 }
 
-.red-dot{
-    background: #891818;
-    width: 22px;
-    height: 22px;
+.profile-list li::before{
+    content: "";
+	display: inline-block;
+    background-color: #891818;
+	width: 22px;
+	height: 22px;
     border-radius: 11px;
-    margin-right: 16px;
+	margin-right: 16px;
 }
 
 .profile-list li{
