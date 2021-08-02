@@ -1,0 +1,25 @@
+@import "setting/reset";
+
+//變數
+@import "setting/variable";
+
+//全站標籤
+@import "setting/base";
+
+//斷點＋容器
+@import "setting/grid";
+
+//通用類別
+@import "setting/utilities";
+
+//page
+@import "page/layout";
+@import "page/index";
+@import "page/product";
+@import "page/product2";
+@import "page/store";
+@import "page/branch";
+@import "page/blog";
+@import "page/blog2";
+@import "page/faq";
+

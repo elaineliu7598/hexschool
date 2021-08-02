@@ -1,0 +1,68 @@
+.faq-content{
+    padding-top: 96px;
+    padding-bottom: 160px;
+    @include pad{
+        padding-top: 60px;
+        padding-bottom: 72px;
+    }
+    @include mobile{
+        padding-top: 28px;
+        padding-bottom: 36px;
+    }
+    h2{
+        border-left: 8px solid $red;
+        padding-left: 16px;
+        margin-bottom: 60px;
+        @include pad{
+            border-left: 4px solid #9C2015;
+            margin-bottom: 40px;
+        }
+        @include mobile{
+            font-size: $size-xl;
+            border-left: 4px solid $red;
+            padding-left: 8px;
+            margin-bottom: 24px;
+        }
+    }
+    h3{
+        @include pad{
+            margin-bottom: 32px;
+        }
+        @include mobile{
+            font-size: $size-md;
+            font-weight: normal;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+
+.faq-list{
+    h4{
+        @include mobile{
+            font-size: $size-base;
+            margin-bottom: 8px;
+        }
+    }
+    p{
+        margin-left: 95px;
+        @include pad{
+            margin-left: 60px;
+            margin-bottom: 24px;
+        }
+        @include mobile{
+            font-size: $size-sm;
+            margin-bottom: 20px;
+            margin-left: 0;
+        }
+    }
+}
+
+@include mobile{
+    .m-none{
+        display: none;
+    }
+    .m-display{
+        display: block;
+    }
+}
