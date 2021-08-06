@@ -36,6 +36,13 @@ ul a{
 }
 
 /* -------通用樣式-------- */
+.d-block{
+	display: block;
+}
+
+.d-none{
+	display: none;
+}
 
 .d-flex{
 	display: flex;
@@ -115,6 +122,15 @@ ul a{
 
 .mb-7{
 	margin-bottom: 36px;
+}
+
+@media(max-width: 414px){
+	.d-sm-none{
+		display: none;
+	}
+	.d-sm-block{
+        display: block;
+    }
 }
 
 /* -------header-------- */
@@ -202,6 +218,12 @@ ul a{
 	padding-bottom: 40px;
 }
 
+.footer-top{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 24px;
+	margin-bottom: 32px;
+}
+
 .footer-menu li{
 	margin-right: 48px;
 }
@@ -222,12 +244,6 @@ ul a{
 	height: 48px;
 	margin-right: 16px;
 }
-
-.divider{
-	border-bottom: 1px solid #fff;
-	margin-top: 24px;
-	margin-bottom: 32px;
-}
 .terms{
 	font-size: 14px;
 }
@@ -239,6 +255,10 @@ ul a{
 @media(max-width: 768px){
 	.footer{
 		padding-bottom: 32px;
+	}
+	.footer-top{
+		padding-bottom: 8px;
+		margin-bottom: 24px;
 	}
 	.footer-menu li{
 		margin-right: 40px;
@@ -259,10 +279,6 @@ ul a{
 	.contact li{
 		margin-bottom: 12px;
 	}
-	.divider{
-		margin-top: 8px;
-		margin-bottom: 24px;
-	}
 }
 
 @media(max-width: 414px){
@@ -278,6 +294,8 @@ ul a{
 		flex-direction: row-reverse;
 		justify-content: space-between;
 		align-items: flex-start;
+		padding-bottom: 18px;
+		margin-bottom: 16px;
 	}
 	.contact{
 		font-size: 16px;
@@ -289,10 +307,6 @@ ul a{
 		width: 20px;
 		height: 20px;
 		margin-right: 5px;
-	}
-	.divider{
-		margin-top: 18px;
-		margin-bottom: 16px;
 	}
 	.footer-bottom, .terms{
 		flex-direction: column;

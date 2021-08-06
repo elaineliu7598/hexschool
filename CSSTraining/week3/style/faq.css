@@ -10,9 +10,6 @@
 .faq-list p{
     margin-left: 95px;
 }
-.m-inline{
-    display: none;
-}
 
 @media(max-width: 768px){
     .faq-content{
@@ -56,11 +53,5 @@
         font-size: 14px;
         margin-bottom: 20px;
         margin-left: 0;
-    }
-    .m-none{
-        display: none;
-    }
-    .m-inline{
-        display: block;
     }
 }
