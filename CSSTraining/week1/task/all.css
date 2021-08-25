@@ -56,7 +56,19 @@ body{
 img{
     display: block;
 }
+/* -----通用樣式------ */
+.text-white{
+    color: #ffffff;
+}
+.text-red{
+    color: #A00404;
+}
+.title{
+    border-bottom: 1px solid #000000;
+    margin-bottom: 16px;
+}
 
+/* -------------- */
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -76,9 +88,6 @@ img{
     margin-left: 16px;
 }
 
-.red{
-    color: #A00404;
-}
 
 .profile{
     padding-top: 37px;
@@ -93,11 +102,6 @@ img{
 
 .profile img{
     padding: 48px 0;
-}
-
-.profile h2, .education h2, .work h2{
-    border-bottom: 1px solid #000000;
-    margin-bottom: 16px;
 }
 
 .profile li, .education li{
@@ -125,10 +129,6 @@ img{
 
 .skills .container{
     width: 996px;
-}
-
-.skills h2, .contact h2, .contact a{
-    color: #ffffff;
 }
 
 .skills ul{

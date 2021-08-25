@@ -12,3 +12,10 @@
 4. 工作經驗區塊 li 內的文字 " 六角學院 視覺設計實習生 | 2019/07－2020/06 " 可以使用 h3 標籤，助教這邊提供 [範例圖](https://i.imgur.com/EqaKy2j.png)
     * (v)
   
+  -------新增---------
+1. .skills h2, .contact h2, .contact a 重複設定的文字顏色可以思考共用一個 class
+    * (v)
+2. .red 建議加上前綴 text-*，這樣在比較容易透過語意判斷是文字相關的設定
+    * (v)
+3. .profile h2, .education h2, .work h2 可以思考一個共用的名稱，例如: .title
+    * (v)
