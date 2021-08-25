@@ -58,7 +58,7 @@ img{
     height: auto;
 }
 
-h1{
+.h1{
     font-size: 80px;
     line-height: 106px;
 }
@@ -148,10 +148,10 @@ h2{
     margin-bottom: 20px;
 }
 
-.divider{
+.border-bottom{
     width: 384px;
     border-bottom: 1px solid #000;
-    margin-top: 24px;
+    padding-bottom: 24px;
     margin-bottom: 28px;
 }
 
