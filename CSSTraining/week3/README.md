@@ -1,6 +1,6 @@
 ### 眼鏡形象網站
 PC + RWD 已完成：layout、store、faq
-https://elaineliu7598.github.io/hexschool/CSSTraining/week3/store.html
+* https://elaineliu7598.github.io/hexschool/CSSTraining/week3/store.html
 
 ### 依助教回饋調整內容
 * 門市據點
