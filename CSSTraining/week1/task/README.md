@@ -1,3 +1,5 @@
+https://elaineliu7598.github.io/hexschool/CSSTraining/week1/task/index.html
+
 ### jasonlu 助教給予回饋
 
 1. 建議在 body 加上 line-height:1.5，讓元素能夠依字體大小自動計算行高，文字的行高就會是 文字大小 * body 設定的行高。例如 字體 24px ，行高就會是 24*1.5 = 36px。在 body 設定行高後文字都不需要設定行高。
