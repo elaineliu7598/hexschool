@@ -1,3 +1,5 @@
+https://elaineliu7598.github.io/hexschool/CSSTraining/week2/index.html
+
 ### cuboid 助教給予回饋
 
 1. "Here’s" 建議用 span 標籤包住，放進 h1 裡面
